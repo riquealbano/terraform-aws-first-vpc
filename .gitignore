@@ -1,0 +1,18 @@
+# Terraform local
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Arquivos de variáveis locais
+*.tfvars
+*.tfvars.json
+
+# Planos e logs
+*.tfplan
+crash.log
+crash.*.log
+
+# Configuração local do Terraform
+.terraformrc
+terraform.rc
